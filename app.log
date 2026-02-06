@@ -1,0 +1,443 @@
+2026-02-05 18:57:15 [INFO] Initializing services...
+2026-02-05 18:57:39 [INFO] Initializing services...
+2026-02-05 18:58:09 [INFO] Initializing services...
+2026-02-05 19:14:28 [INFO] Initializing services...
+2026-02-05 19:17:34 [INFO] Initializing services...
+2026-02-05 19:18:07 [ERROR] Application error - Failed to establish database connection
+2026-02-05 19:32:09 [INFO] Initializing services...
+2026-02-05 19:32:15 [INFO] AuthenticationService initialized
+2026-02-05 19:32:15 [INFO] UserService initialized
+2026-02-05 19:32:16 [INFO] NotificationService initialized
+2026-02-05 19:32:16 [INFO] PostService initialized
+2026-02-05 19:32:16 [INFO] NotificationService initialized
+2026-02-05 19:32:16 [INFO] ConnectionService initialized
+2026-02-05 19:32:16 [INFO] NotificationService initialized
+2026-02-05 19:32:16 [INFO] FollowService initialized
+2026-02-05 19:32:16 [INFO] NotificationService initialized
+2026-02-05 19:32:25 [INFO] Starting registration process
+2026-02-05 19:32:26 [INFO] Initializing services...
+2026-02-05 19:32:27 [INFO] AuthenticationService initialized
+2026-02-05 19:32:27 [INFO] UserService initialized
+2026-02-05 19:32:27 [INFO] NotificationService initialized
+2026-02-05 19:32:27 [INFO] PostService initialized
+2026-02-05 19:32:27 [INFO] NotificationService initialized
+2026-02-05 19:32:27 [INFO] ConnectionService initialized
+2026-02-05 19:32:27 [INFO] NotificationService initialized
+2026-02-05 19:32:27 [INFO] FollowService initialized
+2026-02-05 19:32:27 [INFO] NotificationService initialized
+2026-02-05 19:32:38 [INFO] Starting registration process
+2026-02-05 19:33:17 [INFO] Starting login process
+2026-02-05 19:33:24 [INFO] User logged in successfully: prasad
+2026-02-05 19:33:25 [ERROR] Error getting unread notification count - Table 'revconnect.notifications' doesn't exist
+2026-02-05 19:33:29 [ERROR] ❌ Error getting like count - Table 'revconnect.likes' doesn't exist
+2026-02-05 19:33:29 [DEBUG] Retrieved 0 comments for post 1
+2026-02-05 19:33:29 [ERROR] ❌ Error checking if user liked post - Table 'revconnect.likes' doesn't exist
+2026-02-05 19:36:57 [DEBUG] Like count for post 1: 0
+2026-02-05 19:36:57 [DEBUG] Retrieved 0 comments for post 1
+2026-02-05 19:36:57 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: false
+2026-02-05 19:37:45 [INFO] User updated: prasad
+2026-02-05 19:37:56 [DEBUG] Getting connections for user: 1
+2026-02-05 19:38:10 [INFO] User logged out: prasad
+2026-02-05 19:38:24 [INFO] Starting login process
+2026-02-05 19:38:40 [INFO] User logged in successfully: narendra
+2026-02-05 19:39:44 [INFO] User updated: narendra
+2026-02-05 19:39:53 [INFO] User logged out: narendra
+2026-02-05 20:23:14 [INFO] Initializing services...
+2026-02-05 20:23:18 [INFO] AuthenticationService initialized
+2026-02-05 20:23:18 [INFO] UserService initialized
+2026-02-05 20:23:18 [INFO] NotificationService initialized
+2026-02-05 20:23:18 [INFO] PostService initialized
+2026-02-05 20:23:18 [INFO] NotificationService initialized
+2026-02-05 20:23:18 [INFO] ConnectionService initialized
+2026-02-05 20:23:18 [INFO] NotificationService initialized
+2026-02-05 20:23:18 [INFO] FollowService initialized
+2026-02-05 20:23:18 [INFO] NotificationService initialized
+2026-02-05 20:23:28 [INFO] Initializing services...
+2026-02-05 20:23:29 [INFO] AuthenticationService initialized
+2026-02-05 20:23:29 [INFO] UserService initialized
+2026-02-05 20:23:29 [INFO] NotificationService initialized
+2026-02-05 20:23:29 [INFO] PostService initialized
+2026-02-05 20:23:29 [INFO] NotificationService initialized
+2026-02-05 20:23:29 [INFO] ConnectionService initialized
+2026-02-05 20:23:29 [INFO] NotificationService initialized
+2026-02-05 20:23:29 [INFO] FollowService initialized
+2026-02-05 20:23:29 [INFO] NotificationService initialized
+2026-02-05 20:24:08 [INFO] Starting login process
+2026-02-05 20:24:15 [INFO] User logged in successfully: prasad
+2026-02-05 20:24:23 [DEBUG] Like count for post 1: 0
+2026-02-05 20:24:23 [DEBUG] Retrieved 0 comments for post 1
+2026-02-05 20:24:23 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: false
+2026-02-05 20:26:48 [INFO] User logged out: prasad
+2026-02-05 20:46:03 [INFO] Initializing services...
+2026-02-05 20:46:10 [INFO] AuthenticationService initialized
+2026-02-05 20:46:10 [INFO] UserService initialized
+2026-02-05 20:46:10 [INFO] NotificationService initialized
+2026-02-05 20:46:10 [INFO] PostService initialized
+2026-02-05 20:46:10 [INFO] NotificationService initialized
+2026-02-05 20:46:10 [INFO] ConnectionService initialized
+2026-02-05 20:46:10 [INFO] NotificationService initialized
+2026-02-05 20:46:10 [INFO] FollowService initialized
+2026-02-05 20:46:10 [INFO] NotificationService initialized
+2026-02-05 20:46:16 [INFO] Starting login process
+2026-02-05 20:46:24 [INFO] User logged in successfully: prasad
+2026-02-05 20:46:36 [DEBUG] Like count for post 1: 0
+2026-02-05 20:46:36 [DEBUG] Retrieved 0 comments for post 1
+2026-02-05 20:46:36 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: false
+2026-02-05 20:46:41 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: false
+2026-02-05 20:46:56 [INFO] ✅ Like added - Post: 1, User: 1
+2026-02-05 20:46:56 [INFO] User prasad liked post 1
+2026-02-05 20:47:20 [DEBUG] Like count for post 1: 1
+2026-02-05 20:47:20 [DEBUG] Retrieved 0 comments for post 1
+2026-02-05 20:47:20 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
+2026-02-05 20:48:08 [INFO] ✅ Comment created - ID: 1, Post: 1, User: 1
+2026-02-05 20:48:08 [INFO] User prasad commented on post 1
+2026-02-05 20:48:14 [DEBUG] Like count for post 1: 1
+2026-02-05 20:48:14 [DEBUG] Retrieved 1 comments for post 1
+2026-02-05 20:48:14 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
+2026-02-05 20:49:24 [DEBUG] Like count for post 1: 1
+2026-02-05 20:49:24 [DEBUG] Retrieved 1 comments for post 1
+2026-02-05 20:49:34 [DEBUG] Like count for post 1: 1
+2026-02-05 20:49:34 [DEBUG] Retrieved 1 comments for post 1
+2026-02-05 20:51:38 [INFO] Post updated - ID: 1, User: 1
+2026-02-05 20:52:09 [DEBUG] Getting notifications for user: 1
+2026-02-05 20:54:11 [INFO] User 1 followed user 3
+2026-02-05 20:54:12 [DEBUG] Notification created for user: 3
+2026-02-05 20:55:10 [DEBUG] Getting following for user: 1
+2026-02-05 20:55:33 [DEBUG] Getting followers for user: 1
+2026-02-05 20:59:06 [DEBUG] Getting following for user: 1
+2026-02-05 20:59:17 [DEBUG] Getting following for user: 1
+2026-02-05 20:59:39 [DEBUG] Getting followers for user: 1
+2026-02-05 21:00:27 [INFO] User logged out: prasad
+2026-02-05 21:18:00 [INFO] Initializing services...
+2026-02-05 21:18:20 [INFO] AuthenticationService initialized
+2026-02-05 21:18:21 [INFO] UserService initialized
+2026-02-05 21:18:22 [INFO] NotificationService initialized
+2026-02-05 21:18:22 [INFO] PostService initialized
+2026-02-05 21:18:22 [INFO] NotificationService initialized
+2026-02-05 21:18:22 [INFO] ConnectionService initialized
+2026-02-05 21:18:22 [INFO] NotificationService initialized
+2026-02-05 21:18:22 [INFO] FollowService initialized
+2026-02-05 21:18:22 [INFO] NotificationService initialized
+2026-02-05 21:19:01 [INFO] Starting login process
+2026-02-05 21:19:59 [INFO] User logged in successfully: prasad
+2026-02-05 21:20:24 [DEBUG] Getting connections for user: 1
+2026-02-05 21:21:06 [DEBUG] Getting connections for user: 1
+2026-02-05 21:22:13 [INFO] User logged out: prasad
+2026-02-05 21:22:35 [INFO] Initializing services...
+2026-02-05 21:22:40 [INFO] AuthenticationService initialized
+2026-02-05 21:22:40 [INFO] UserService initialized
+2026-02-05 21:22:40 [INFO] NotificationService initialized
+2026-02-05 21:22:40 [INFO] PostService initialized
+2026-02-05 21:22:40 [INFO] NotificationService initialized
+2026-02-05 21:22:40 [INFO] ConnectionService initialized
+2026-02-05 21:22:40 [INFO] NotificationService initialized
+2026-02-05 21:22:40 [INFO] FollowService initialized
+2026-02-05 21:22:40 [INFO] NotificationService initialized
+2026-02-05 21:22:47 [INFO] Starting registration process
+2026-02-05 21:23:17 [INFO] User created: durga
+2026-02-05 21:23:17 [INFO] User registered successfully: durga
+2026-02-05 21:23:20 [INFO] Starting login process
+2026-02-05 21:23:25 [INFO] User logged in successfully: durga
+2026-02-05 21:24:10 [INFO] Connection request sent from 4 to 4
+2026-02-05 21:24:12 [DEBUG] Notification created for user: 1
+2026-02-05 21:25:52 [DEBUG] Getting pending connections for user: 4
+2026-02-05 21:26:25 [DEBUG] Getting connections for user: 4
+2026-02-05 21:28:00 [INFO] User logged out: durga
+2026-02-05 21:28:02 [INFO] Starting login process
+2026-02-05 21:28:07 [INFO] User logged in successfully: prasad
+2026-02-05 21:28:11 [DEBUG] Getting notifications for user: 1
+2026-02-05 21:29:21 [DEBUG] Getting pending connections for user: 1
+2026-02-05 21:29:36 [DEBUG] Getting connections for user: 1
+2026-02-05 21:29:49 [DEBUG] Getting pending connections for user: 1
+2026-02-05 21:29:54 [INFO] User logged out: prasad
+2026-02-05 21:41:43 [INFO] Initializing services...
+2026-02-05 21:41:50 [INFO] AuthenticationService initialized
+2026-02-05 21:41:50 [INFO] UserService initialized
+2026-02-05 21:41:50 [INFO] NotificationService initialized
+2026-02-05 21:41:50 [INFO] PostService initialized
+2026-02-05 21:41:50 [INFO] NotificationService initialized
+2026-02-05 21:41:50 [INFO] ConnectionService initialized
+2026-02-05 21:41:50 [INFO] NotificationService initialized
+2026-02-05 21:41:50 [INFO] FollowService initialized
+2026-02-05 21:41:50 [INFO] NotificationService initialized
+2026-02-05 21:41:55 [INFO] Starting login process
+2026-02-05 21:42:05 [INFO] User logged in successfully: prasad
+2026-02-05 21:42:08 [DEBUG] Getting notifications for user: 1
+2026-02-05 21:42:32 [INFO] Connection request accepted: 1
+2026-02-05 21:42:32 [DEBUG] Notification created for user: 4
+2026-02-05 21:44:23 [INFO] User logged out: prasad
+2026-02-05 21:52:44 [INFO] Initializing services...
+2026-02-05 21:52:48 [INFO] AuthenticationService initialized
+2026-02-05 21:52:48 [INFO] UserService initialized
+2026-02-05 21:52:48 [INFO] NotificationService initialized
+2026-02-05 21:52:48 [INFO] PostService initialized
+2026-02-05 21:52:48 [INFO] NotificationService initialized
+2026-02-05 21:52:48 [INFO] ConnectionService initialized
+2026-02-05 21:52:48 [INFO] NotificationService initialized
+2026-02-05 21:52:48 [INFO] FollowService initialized
+2026-02-05 21:52:48 [INFO] NotificationService initialized
+2026-02-05 21:52:53 [INFO] Starting login process
+2026-02-05 21:52:59 [INFO] User logged in successfully: prasad
+2026-02-05 21:53:04 [DEBUG] Retrieved 1 notifications for user: 1
+2026-02-05 21:54:54 [INFO] Notification marked as read: 2
+2026-02-05 21:57:14 [INFO] User logged out: prasad
+2026-02-05 22:05:20 [INFO] Initializing services...
+2026-02-05 22:05:25 [INFO] AuthenticationService initialized
+2026-02-05 22:05:25 [INFO] UserService initialized
+2026-02-05 22:05:25 [INFO] NotificationService initialized
+2026-02-05 22:05:25 [INFO] PostService initialized
+2026-02-05 22:05:26 [INFO] NotificationService initialized
+2026-02-05 22:05:26 [INFO] ConnectionService initialized
+2026-02-05 22:05:26 [INFO] NotificationService initialized
+2026-02-05 22:05:26 [INFO] FollowService initialized
+2026-02-05 22:05:26 [INFO] NotificationService initialized
+2026-02-05 22:05:48 [INFO] Starting registration process
+2026-02-05 22:07:32 [INFO] User created: siva
+2026-02-05 22:07:32 [INFO] User registered successfully: siva
+2026-02-05 22:07:35 [INFO] Starting login process
+2026-02-05 22:07:43 [INFO] User logged in successfully: siva
+2026-02-05 22:13:46 [INFO] User logged out: siva
+2026-02-05 23:39:29 [INFO] Initializing services...
+2026-02-05 23:39:41 [INFO] AuthenticationService initialized
+2026-02-05 23:39:41 [INFO] UserService initialized
+2026-02-05 23:39:42 [INFO] NotificationService initialized
+2026-02-05 23:39:42 [INFO] PostService initialized
+2026-02-05 23:39:42 [INFO] NotificationService initialized
+2026-02-05 23:39:42 [INFO] ConnectionService initialized
+2026-02-05 23:39:42 [INFO] NotificationService initialized
+2026-02-05 23:39:42 [INFO] FollowService initialized
+2026-02-05 23:39:42 [INFO] NotificationService initialized
+2026-02-05 23:40:32 [INFO] Starting login process
+2026-02-05 23:40:41 [INFO] User logged in successfully: prasad
+2026-02-05 23:40:47 [DEBUG] Like count for post 1: 1
+2026-02-05 23:40:47 [DEBUG] Retrieved 1 comments for post 1
+2026-02-05 23:40:47 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
+2026-02-05 23:41:24 [INFO] User logged out: prasad
+2026-02-06 10:48:21 [INFO] Setting up BaseDAO tests
+2026-02-06 10:48:28 [INFO] Test table created
+2026-02-06 10:48:35 [INFO] AuthenticationService initialized
+2026-02-06 10:48:35 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 10:48:35 [INFO] AuthenticationService initialized
+2026-02-06 10:48:35 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 10:48:35 [INFO] AuthenticationService initialized
+2026-02-06 10:48:35 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 10:48:35 [INFO] Setting up PostServiceTest
+2026-02-06 10:48:35 [INFO] Post creation test passed
+2026-02-06 10:48:35 [INFO] Setting up PostServiceTest
+2026-02-06 10:48:35 [INFO] Basic relationship test passed
+2026-02-06 10:48:35 [INFO] Setting up PostServiceTest
+2026-02-06 10:48:35 [INFO] User creation test passed
+2026-02-06 10:48:35 [INFO] UserService initialized
+2026-02-06 10:48:36 [INFO] UserService initialized
+2026-02-06 10:48:36 [TRACE] This is a TRACE message
+2026-02-06 10:48:36 [DEBUG] This is a DEBUG message
+2026-02-06 10:48:36 [INFO] This is an INFO message
+2026-02-06 10:48:36 [WARN] This is a WARN message
+2026-02-06 10:48:36 [ERROR] This is an ERROR message
+2026-02-06 10:48:36 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 10:48:36 [INFO] Test info message
+2026-02-06 10:48:37 [INFO] Close connection test passed
+2026-02-06 10:48:37 [INFO] Connection reuse test passed
+2026-02-06 10:48:37 [INFO] Database connection test passed
+2026-02-06 11:01:04 [INFO] Setting up BaseDAO tests
+2026-02-06 11:01:05 [INFO] Test table created
+2026-02-06 11:01:17 [INFO] AuthenticationService initialized
+2026-02-06 11:01:17 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 11:01:17 [INFO] AuthenticationService initialized
+2026-02-06 11:01:17 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 11:01:17 [INFO] AuthenticationService initialized
+2026-02-06 11:01:17 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 11:01:17 [INFO] Setting up PostServiceTest
+2026-02-06 11:01:18 [INFO] Post creation test passed
+2026-02-06 11:01:18 [INFO] Setting up PostServiceTest
+2026-02-06 11:01:18 [INFO] Basic relationship test passed
+2026-02-06 11:01:18 [INFO] Setting up PostServiceTest
+2026-02-06 11:01:18 [INFO] User creation test passed
+2026-02-06 11:01:18 [INFO] UserService initialized
+2026-02-06 11:01:18 [INFO] UserService initialized
+2026-02-06 11:01:18 [TRACE] This is a TRACE message
+2026-02-06 11:01:18 [DEBUG] This is a DEBUG message
+2026-02-06 11:01:18 [INFO] This is an INFO message
+2026-02-06 11:01:18 [WARN] This is a WARN message
+2026-02-06 11:01:18 [ERROR] This is an ERROR message
+2026-02-06 11:01:18 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 11:01:18 [INFO] Test info message
+2026-02-06 11:01:19 [INFO] Close connection test passed
+2026-02-06 11:01:19 [INFO] Connection reuse test passed
+2026-02-06 11:01:19 [INFO] Database connection test passed
+2026-02-06 11:10:10 [INFO] Database connection test passed
+2026-02-06 11:10:10 [INFO] Connection lifecycle test passed
+2026-02-06 11:10:10 [INFO] Basic database functionality test passed
+2026-02-06 11:10:13 [INFO] AuthenticationService initialized
+2026-02-06 11:10:13 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 11:10:13 [INFO] AuthenticationService initialized
+2026-02-06 11:10:13 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 11:10:13 [INFO] AuthenticationService initialized
+2026-02-06 11:10:13 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 11:10:13 [INFO] Setting up PostServiceTest
+2026-02-06 11:10:13 [INFO] Post creation test passed
+2026-02-06 11:10:13 [INFO] Setting up PostServiceTest
+2026-02-06 11:10:13 [INFO] Basic relationship test passed
+2026-02-06 11:10:13 [INFO] Setting up PostServiceTest
+2026-02-06 11:10:13 [INFO] User creation test passed
+2026-02-06 11:10:13 [INFO] Setting up UserServiceTest
+2026-02-06 11:10:13 [INFO] UserService initialized
+2026-02-06 11:10:13 [INFO] Search users test passed
+2026-02-06 11:10:13 [INFO] Setting up UserServiceTest
+2026-02-06 11:10:13 [INFO] UserService initialized
+2026-02-06 11:10:13 [INFO] Update profile test passed
+2026-02-06 11:10:13 [INFO] Setting up UserServiceTest
+2026-02-06 11:10:13 [INFO] UserService initialized
+2026-02-06 11:10:13 [TRACE] This is a TRACE message
+2026-02-06 11:10:13 [DEBUG] This is a DEBUG message
+2026-02-06 11:10:13 [INFO] This is an INFO message
+2026-02-06 11:10:13 [WARN] This is a WARN message
+2026-02-06 11:10:13 [ERROR] This is an ERROR message
+2026-02-06 11:10:13 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 11:10:13 [INFO] Test info message
+2026-02-06 11:10:13 [INFO] Close connection test passed
+2026-02-06 11:10:13 [INFO] Connection reuse test passed
+2026-02-06 11:10:13 [INFO] Database connection test passed
+2026-02-06 11:11:55 [INFO] Initializing services...
+2026-02-06 11:11:58 [INFO] AuthenticationService initialized
+2026-02-06 11:11:58 [INFO] UserService initialized
+2026-02-06 11:11:59 [INFO] NotificationService initialized
+2026-02-06 11:11:59 [INFO] PostService initialized
+2026-02-06 11:11:59 [INFO] NotificationService initialized
+2026-02-06 11:11:59 [INFO] ConnectionService initialized
+2026-02-06 11:11:59 [INFO] NotificationService initialized
+2026-02-06 11:11:59 [INFO] FollowService initialized
+2026-02-06 11:11:59 [INFO] NotificationService initialized
+2026-02-06 11:12:00 [INFO] Initializing services...
+2026-02-06 11:12:00 [INFO] AuthenticationService initialized
+2026-02-06 11:12:00 [INFO] UserService initialized
+2026-02-06 11:12:00 [INFO] NotificationService initialized
+2026-02-06 11:12:00 [INFO] PostService initialized
+2026-02-06 11:12:00 [INFO] NotificationService initialized
+2026-02-06 11:12:00 [INFO] ConnectionService initialized
+2026-02-06 11:12:00 [INFO] NotificationService initialized
+2026-02-06 11:12:00 [INFO] FollowService initialized
+2026-02-06 11:12:00 [INFO] NotificationService initialized
+2026-02-06 11:12:08 [INFO] Starting login process
+2026-02-06 11:12:52 [INFO] User logged in successfully: prasad
+2026-02-06 11:13:28 [DEBUG] Like count for post 1: 1
+2026-02-06 11:13:29 [DEBUG] Retrieved 1 comments for post 1
+2026-02-06 11:13:29 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
+2026-02-06 11:13:40 [INFO] User logged out: prasad
+2026-02-06 11:13:49 [INFO] Starting login process
+2026-02-06 11:13:56 [INFO] User logged in successfully: narendra
+2026-02-06 11:14:00 [DEBUG] Retrieved 1 notifications for user: 3
+2026-02-06 11:14:06 [INFO] Notification marked as read: 1
+2026-02-06 11:14:28 [DEBUG] Check if user liked post - Post: 1, User: 3, Liked: false
+2026-02-06 11:14:37 [INFO] ✅ Like added - Post: 1, User: 3
+2026-02-06 11:14:37 [INFO] User narendra liked post 1
+2026-02-06 11:14:38 [ERROR] Error creating notification - Column 'created_at' not found.
+2026-02-06 11:15:31 [INFO] User logged out: narendra
+2026-02-06 11:15:33 [INFO] Starting login process
+2026-02-06 11:15:39 [INFO] User logged in successfully: prasad
+2026-02-06 11:15:46 [DEBUG] Retrieved 2 notifications for user: 1
+2026-02-06 11:15:57 [INFO] Notification marked as read: 4
+2026-02-06 11:16:00 [INFO] User logged out: prasad
+2026-02-06 11:22:27 [INFO] Starting login process
+2026-02-06 11:22:43 [INFO] User logged in successfully: narendra
+2026-02-06 11:23:53 [INFO] ✅ Comment created - ID: 2, Post: 1, User: 3
+2026-02-06 11:23:53 [INFO] User narendra commented on post 1
+2026-02-06 11:23:53 [ERROR] Error creating notification - Column 'created_at' not found.
+2026-02-06 11:24:05 [DEBUG] Retrieved 2 comments for post 1
+2026-02-06 11:25:14 [INFO] User logged out: narendra
+2026-02-06 11:38:27 [INFO] Initializing services...
+2026-02-06 11:38:29 [INFO] Initializing services...
+2026-02-06 11:38:48 [INFO] AuthenticationService initialized
+2026-02-06 11:38:48 [INFO] AuthenticationService initialized
+2026-02-06 11:38:48 [INFO] UserService initialized
+2026-02-06 11:38:48 [INFO] UserService initialized
+2026-02-06 11:38:48 [INFO] NotificationService initialized
+2026-02-06 11:38:48 [INFO] NotificationService initialized
+2026-02-06 11:38:48 [INFO] PostService initialized
+2026-02-06 11:38:48 [INFO] PostService initialized
+2026-02-06 11:38:48 [INFO] NotificationService initialized
+2026-02-06 11:38:48 [INFO] NotificationService initialized
+2026-02-06 11:38:48 [INFO] ConnectionService initialized
+2026-02-06 11:38:48 [INFO] ConnectionService initialized
+2026-02-06 11:38:48 [INFO] NotificationService initialized
+2026-02-06 11:38:48 [INFO] NotificationService initialized
+2026-02-06 11:38:48 [INFO] FollowService initialized
+2026-02-06 11:38:48 [INFO] FollowService initialized
+2026-02-06 11:38:48 [INFO] NotificationService initialized
+2026-02-06 11:38:48 [INFO] NotificationService initialized
+2026-02-06 11:38:56 [INFO] Starting login process
+2026-02-06 11:39:04 [INFO] User logged in successfully: prasad
+2026-02-06 11:39:06 [DEBUG] Like count for post 1: 2
+2026-02-06 11:39:06 [DEBUG] Retrieved 2 comments for post 1
+2026-02-06 11:39:06 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
+2026-02-06 11:39:11 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
+2026-02-06 11:39:20 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
+2026-02-06 11:39:27 [INFO] ✅ Like removed - Post: 1, User: 1
+2026-02-06 11:39:27 [INFO] User prasad unliked post 1
+2026-02-06 11:39:44 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: false
+2026-02-06 11:39:51 [INFO] ✅ Like added - Post: 1, User: 1
+2026-02-06 11:39:51 [INFO] User prasad liked post 1
+2026-02-06 11:40:00 [INFO] ✅ Comment created - ID: 3, Post: 1, User: 1
+2026-02-06 11:40:00 [INFO] User prasad commented on post 1
+2026-02-06 11:40:12 [INFO] User logged out: prasad
+2026-02-06 11:40:16 [INFO] Starting login process
+2026-02-06 11:40:24 [INFO] User logged in successfully: narendra
+2026-02-06 11:41:31 [DEBUG] Check if user liked post - Post: 1, User: 3, Liked: true
+2026-02-06 11:41:41 [INFO] ✅ Like removed - Post: 1, User: 3
+2026-02-06 11:41:41 [INFO] User narendra unliked post 1
+2026-02-06 11:41:44 [DEBUG] Check if user liked post - Post: 1, User: 3, Liked: false
+2026-02-06 11:41:56 [INFO] ✅ Like added - Post: 1, User: 3
+2026-02-06 11:41:56 [INFO] User narendra liked post 1
+2026-02-06 11:41:56 [DEBUG] Notification created for user: 1
+2026-02-06 11:41:56 [DEBUG] Like notification sent to user 1
+2026-02-06 11:42:06 [INFO] User logged out: narendra
+2026-02-06 11:43:10 [INFO] Database connection test passed
+2026-02-06 11:43:10 [INFO] Connection lifecycle test passed
+2026-02-06 11:43:10 [INFO] Basic database functionality test passed
+2026-02-06 11:43:20 [INFO] AuthenticationService initialized
+2026-02-06 11:43:20 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 11:43:21 [INFO] AuthenticationService initialized
+2026-02-06 11:43:21 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 11:43:21 [INFO] AuthenticationService initialized
+2026-02-06 11:43:21 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 11:43:21 [INFO] Setting up PostServiceTest
+2026-02-06 11:43:21 [INFO] Post creation test passed
+2026-02-06 11:43:21 [INFO] Setting up PostServiceTest
+2026-02-06 11:43:21 [INFO] Basic relationship test passed
+2026-02-06 11:43:21 [INFO] Setting up PostServiceTest
+2026-02-06 11:43:21 [INFO] User creation test passed
+2026-02-06 11:43:21 [INFO] Setting up UserServiceTest
+2026-02-06 11:43:21 [INFO] UserService initialized
+2026-02-06 11:43:21 [INFO] Search users test passed
+2026-02-06 11:43:21 [INFO] Setting up UserServiceTest
+2026-02-06 11:43:21 [INFO] UserService initialized
+2026-02-06 11:43:21 [INFO] Update profile test passed
+2026-02-06 11:43:21 [INFO] Setting up UserServiceTest
+2026-02-06 11:43:21 [INFO] UserService initialized
+2026-02-06 11:43:21 [TRACE] This is a TRACE message
+2026-02-06 11:43:21 [DEBUG] This is a DEBUG message
+2026-02-06 11:43:21 [INFO] This is an INFO message
+2026-02-06 11:43:21 [WARN] This is a WARN message
+2026-02-06 11:43:21 [ERROR] This is an ERROR message
+2026-02-06 11:43:23 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 11:43:24 [INFO] Test info message
+2026-02-06 11:43:24 [INFO] Close connection test passed
+2026-02-06 11:43:24 [INFO] Connection reuse test passed
+2026-02-06 11:43:24 [INFO] Database connection test passed
+2026-02-06 11:47:36 [INFO] Initializing services...
+2026-02-06 11:47:36 [INFO] AuthenticationService initialized
+2026-02-06 11:47:36 [INFO] UserService initialized
+2026-02-06 11:47:38 [INFO] NotificationService initialized
+2026-02-06 11:47:38 [INFO] PostService initialized
+2026-02-06 11:47:38 [INFO] NotificationService initialized
+2026-02-06 11:47:38 [INFO] ConnectionService initialized
+2026-02-06 11:47:38 [INFO] NotificationService initialized
+2026-02-06 11:47:38 [INFO] FollowService initialized
+2026-02-06 11:47:38 [INFO] NotificationService initialized
+2026-02-06 11:47:43 [INFO] Starting login process
+2026-02-06 11:47:50 [INFO] User logged in successfully: prasad
+2026-02-06 11:47:54 [DEBUG] Like count for post 1: 2
+2026-02-06 11:47:54 [DEBUG] Retrieved 3 comments for post 1
+2026-02-06 11:47:54 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
+2026-02-06 11:48:02 [DEBUG] Retrieved 4 notifications for user: 1
+2026-02-06 11:48:14 [INFO] User logged out: prasad

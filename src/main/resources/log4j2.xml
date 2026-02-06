@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <Properties>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Property>
+        <Property name="LOG_DIR">logs</Property>
+        <Property name="APP_LOG">${LOG_DIR}/revconnect.log</Property>
+        <Property name="ERROR_LOG">${LOG_DIR}/error.log</Property>
+        <Property name="SQL_LOG">${LOG_DIR}/sql.log</Property>
+        <Property name="USER_LOG">${LOG_DIR}/user_activity.log</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+
+        <!-- Main Application Log File -->
+        <RollingFile name="FileAppender" fileName="${APP_LOG}"
+                     filePattern="${LOG_DIR}/revconnect-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+        <!-- Error Log File -->
+        <RollingFile name="ErrorFile" fileName="${ERROR_LOG}"
+                     filePattern="${LOG_DIR}/error-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="5MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- SQL Log File -->
+        <RollingFile name="SqlFile" fileName="${SQL_LOG}"
+                     filePattern="${LOG_DIR}/sql-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="5MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- User Activity Log File -->
+        <RollingFile name="UserActivityFile" fileName="${USER_LOG}"
+                     filePattern="${LOG_DIR}/user_activity-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="5MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- Async Appender for better performance -->
+        <Async name="AsyncAppender">
+            <AppenderRef ref="FileAppender"/>
+        </Async>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="AsyncAppender"/>
+        </Root>
+
+        <!-- Application Specific Loggers -->
+        <Logger name="com.revconnect" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+
+        <!-- SQL Logger -->
+        <Logger name="com.revconnect.dao" level="DEBUG" additivity="false">
+            <AppenderRef ref="SqlFile"/>
+            <AppenderRef ref="Console" level="INFO"/>
+        </Logger>
+
+        <!-- Error Logger -->
+        <Logger name="com.revconnect.util.AppLogger" level="ERROR" additivity="false">
+            <AppenderRef ref="ErrorFile"/>
+        </Logger>
+
+        <!-- User Activity Logger -->
+        <Logger name="com.revconnect.service" level="INFO" additivity="false">
+            <AppenderRef ref="UserActivityFile"/>
+        </Logger>
+
+        <!-- Test Logger -->
+        <Logger name="com.revconnect.test" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+    </Loggers>
+</Configuration>
