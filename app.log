@@ -441,3 +441,400 @@
 2026-02-06 11:47:54 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
 2026-02-06 11:48:02 [DEBUG] Retrieved 4 notifications for user: 1
 2026-02-06 11:48:14 [INFO] User logged out: prasad
+2026-02-06 13:52:51 [INFO] Initializing services...
+2026-02-06 13:53:09 [INFO] AuthenticationService initialized
+2026-02-06 13:53:09 [INFO] UserService initialized
+2026-02-06 13:53:09 [INFO] NotificationService initialized
+2026-02-06 13:53:09 [INFO] PostService initialized
+2026-02-06 13:53:09 [INFO] NotificationService initialized
+2026-02-06 13:53:09 [INFO] ConnectionService initialized
+2026-02-06 13:53:09 [INFO] NotificationService initialized
+2026-02-06 13:53:09 [INFO] FollowService initialized
+2026-02-06 13:53:09 [INFO] NotificationService initialized
+2026-02-06 13:53:27 [INFO] Starting registration process
+2026-02-06 13:54:09 [INFO] User created: prudhvi
+2026-02-06 13:54:09 [INFO] User registered successfully: prudhvi
+2026-02-06 13:54:17 [INFO] Starting login process
+2026-02-06 13:54:23 [INFO] User logged in successfully: prudhvi
+2026-02-06 13:54:44 [DEBUG] Check if user liked post - Post: 1, User: 6, Liked: false
+2026-02-06 13:55:17 [INFO] ✅ Like added - Post: 1, User: 6
+2026-02-06 13:55:17 [INFO] User prudhvi liked post 1
+2026-02-06 13:55:18 [DEBUG] Notification created for user: 1
+2026-02-06 13:55:18 [DEBUG] Like notification sent to user 1
+2026-02-06 13:55:54 [INFO] Connection request sent from 6 to 6
+2026-02-06 13:55:54 [DEBUG] Notification created for user: 1
+2026-02-06 13:55:54 [DEBUG] Connection request notification sent to user: 1
+2026-02-06 13:56:49 [INFO] User logged out: prudhvi
+2026-02-06 13:56:52 [INFO] Starting login process
+2026-02-06 13:56:59 [INFO] User logged in successfully: prasad
+2026-02-06 13:57:05 [DEBUG] Retrieved 6 notifications for user: 1
+2026-02-06 13:57:46 [INFO] Notification marked as read: 6
+2026-02-06 13:58:27 [INFO] Connection request accepted: 2
+2026-02-06 13:58:27 [DEBUG] Notification created for user: 6
+2026-02-06 13:58:27 [DEBUG] Connection accepted notification sent to user: 6
+2026-02-06 13:59:31 [DEBUG] Like count for post 1: 3
+2026-02-06 13:59:31 [DEBUG] Retrieved 3 comments for post 1
+2026-02-06 13:59:32 [DEBUG] Check if user liked post - Post: 1, User: 1, Liked: true
+2026-02-06 13:59:57 [DEBUG] Like count for post 1: 3
+2026-02-06 13:59:57 [DEBUG] Retrieved 3 comments for post 1
+2026-02-06 14:00:05 [DEBUG] Like count for post 1: 3
+2026-02-06 14:00:05 [DEBUG] Retrieved 3 comments for post 1
+2026-02-06 14:00:34 [INFO] Post updated - ID: 1, User: 1
+2026-02-06 14:01:17 [INFO] User logged out: prasad
+2026-02-06 14:24:56 [INFO] Close connection test passed
+2026-02-06 14:24:56 [INFO] Connection reuse test passed
+2026-02-06 14:24:57 [INFO] Database connection test passed
+2026-02-06 14:25:00 [INFO] Setting up UserServiceTest
+2026-02-06 14:25:00 [INFO] UserService initialized
+2026-02-06 14:25:00 [INFO] Search users test passed
+2026-02-06 14:25:00 [INFO] Setting up UserServiceTest
+2026-02-06 14:25:00 [INFO] UserService initialized
+2026-02-06 14:25:00 [INFO] Update profile test passed
+2026-02-06 14:25:00 [INFO] Setting up UserServiceTest
+2026-02-06 14:25:00 [INFO] UserService initialized
+2026-02-06 14:25:00 [INFO] Setting up PostServiceTest
+2026-02-06 14:25:00 [INFO] Post creation test passed
+2026-02-06 14:25:00 [INFO] Setting up PostServiceTest
+2026-02-06 14:25:00 [INFO] Basic relationship test passed
+2026-02-06 14:25:00 [INFO] Setting up PostServiceTest
+2026-02-06 14:25:00 [INFO] User creation test passed
+2026-02-06 14:25:01 [INFO] AuthenticationService initialized
+2026-02-06 14:25:01 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:25:01 [INFO] AuthenticationService initialized
+2026-02-06 14:25:01 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:25:01 [INFO] AuthenticationService initialized
+2026-02-06 14:25:01 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:25:01 [INFO] Database connection test passed
+2026-02-06 14:25:01 [INFO] Connection lifecycle test passed
+2026-02-06 14:25:01 [INFO] Basic database functionality test passed
+2026-02-06 14:25:01 [TRACE] This is a TRACE message
+2026-02-06 14:25:01 [DEBUG] This is a DEBUG message
+2026-02-06 14:25:01 [INFO] This is an INFO message
+2026-02-06 14:25:01 [WARN] This is a WARN message
+2026-02-06 14:25:01 [ERROR] This is an ERROR message
+2026-02-06 14:25:01 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 14:25:01 [INFO] Test info message
+2026-02-06 14:25:58 [INFO] Close connection test passed
+2026-02-06 14:25:58 [INFO] Connection reuse test passed
+2026-02-06 14:25:58 [INFO] Database connection test passed
+2026-02-06 14:26:03 [INFO] Setting up UserServiceTest
+2026-02-06 14:26:03 [INFO] UserService initialized
+2026-02-06 14:26:03 [INFO] Search users test passed
+2026-02-06 14:26:03 [INFO] Setting up UserServiceTest
+2026-02-06 14:26:03 [INFO] UserService initialized
+2026-02-06 14:26:03 [INFO] Update profile test passed
+2026-02-06 14:26:03 [INFO] Setting up UserServiceTest
+2026-02-06 14:26:03 [INFO] UserService initialized
+2026-02-06 14:26:03 [INFO] Setting up PostServiceTest
+2026-02-06 14:26:03 [INFO] Post creation test passed
+2026-02-06 14:26:03 [INFO] Setting up PostServiceTest
+2026-02-06 14:26:03 [INFO] Basic relationship test passed
+2026-02-06 14:26:03 [INFO] Setting up PostServiceTest
+2026-02-06 14:26:03 [INFO] User creation test passed
+2026-02-06 14:26:03 [INFO] AuthenticationService initialized
+2026-02-06 14:26:03 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:26:03 [INFO] AuthenticationService initialized
+2026-02-06 14:26:03 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:26:03 [INFO] AuthenticationService initialized
+2026-02-06 14:26:03 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:26:03 [INFO] Database connection test passed
+2026-02-06 14:26:03 [INFO] Connection lifecycle test passed
+2026-02-06 14:26:03 [INFO] Basic database functionality test passed
+2026-02-06 14:26:03 [TRACE] This is a TRACE message
+2026-02-06 14:26:03 [DEBUG] This is a DEBUG message
+2026-02-06 14:26:03 [INFO] This is an INFO message
+2026-02-06 14:26:03 [WARN] This is a WARN message
+2026-02-06 14:26:03 [ERROR] This is an ERROR message
+2026-02-06 14:26:03 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 14:26:03 [INFO] Test info message
+2026-02-06 14:29:02 [INFO] Close connection test passed
+2026-02-06 14:29:02 [INFO] Connection reuse test passed
+2026-02-06 14:29:02 [INFO] Database connection test passed
+2026-02-06 14:29:05 [INFO] Setting up UserServiceTest
+2026-02-06 14:29:05 [INFO] UserService initialized
+2026-02-06 14:29:05 [INFO] Search users test passed
+2026-02-06 14:29:05 [INFO] Setting up UserServiceTest
+2026-02-06 14:29:05 [INFO] UserService initialized
+2026-02-06 14:29:05 [INFO] Update profile test passed
+2026-02-06 14:29:05 [INFO] Setting up UserServiceTest
+2026-02-06 14:29:05 [INFO] UserService initialized
+2026-02-06 14:29:05 [INFO] Setting up PostServiceTest
+2026-02-06 14:29:05 [INFO] Post creation test passed
+2026-02-06 14:29:05 [INFO] Setting up PostServiceTest
+2026-02-06 14:29:05 [INFO] Basic relationship test passed
+2026-02-06 14:29:05 [INFO] Setting up PostServiceTest
+2026-02-06 14:29:05 [INFO] User creation test passed
+2026-02-06 14:29:05 [INFO] AuthenticationService initialized
+2026-02-06 14:29:05 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:29:05 [INFO] AuthenticationService initialized
+2026-02-06 14:29:05 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:29:05 [INFO] AuthenticationService initialized
+2026-02-06 14:29:05 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:29:05 [INFO] Database connection test passed
+2026-02-06 14:29:05 [INFO] Connection lifecycle test passed
+2026-02-06 14:29:05 [INFO] Basic database functionality test passed
+2026-02-06 14:29:05 [TRACE] This is a TRACE message
+2026-02-06 14:29:05 [DEBUG] This is a DEBUG message
+2026-02-06 14:29:05 [INFO] This is an INFO message
+2026-02-06 14:29:05 [WARN] This is a WARN message
+2026-02-06 14:29:05 [ERROR] This is an ERROR message
+2026-02-06 14:29:05 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 14:29:06 [INFO] Test info message
+2026-02-06 14:29:14 [INFO] Close connection test passed
+2026-02-06 14:29:14 [INFO] Connection reuse test passed
+2026-02-06 14:29:14 [INFO] Database connection test passed
+2026-02-06 14:29:16 [INFO] Setting up UserServiceTest
+2026-02-06 14:29:16 [INFO] UserService initialized
+2026-02-06 14:29:16 [INFO] Search users test passed
+2026-02-06 14:29:16 [INFO] Setting up UserServiceTest
+2026-02-06 14:29:16 [INFO] UserService initialized
+2026-02-06 14:29:16 [INFO] Update profile test passed
+2026-02-06 14:29:16 [INFO] Setting up UserServiceTest
+2026-02-06 14:29:16 [INFO] UserService initialized
+2026-02-06 14:29:16 [INFO] Setting up PostServiceTest
+2026-02-06 14:29:16 [INFO] Post creation test passed
+2026-02-06 14:29:16 [INFO] Setting up PostServiceTest
+2026-02-06 14:29:16 [INFO] Basic relationship test passed
+2026-02-06 14:29:16 [INFO] Setting up PostServiceTest
+2026-02-06 14:29:16 [INFO] User creation test passed
+2026-02-06 14:29:17 [INFO] AuthenticationService initialized
+2026-02-06 14:29:17 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:29:17 [INFO] AuthenticationService initialized
+2026-02-06 14:29:17 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:29:17 [INFO] AuthenticationService initialized
+2026-02-06 14:29:17 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:29:17 [INFO] Database connection test passed
+2026-02-06 14:29:17 [INFO] Connection lifecycle test passed
+2026-02-06 14:29:17 [INFO] Basic database functionality test passed
+2026-02-06 14:29:17 [TRACE] This is a TRACE message
+2026-02-06 14:29:17 [DEBUG] This is a DEBUG message
+2026-02-06 14:29:17 [INFO] This is an INFO message
+2026-02-06 14:29:17 [WARN] This is a WARN message
+2026-02-06 14:29:17 [ERROR] This is an ERROR message
+2026-02-06 14:29:17 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 14:29:17 [INFO] Test info message
+2026-02-06 14:30:06 [INFO] Close connection test passed
+2026-02-06 14:30:06 [INFO] Connection reuse test passed
+2026-02-06 14:30:06 [INFO] Database connection test passed
+2026-02-06 14:30:09 [INFO] Setting up UserServiceTest
+2026-02-06 14:30:09 [INFO] UserService initialized
+2026-02-06 14:30:09 [INFO] Search users test passed
+2026-02-06 14:30:09 [INFO] Setting up UserServiceTest
+2026-02-06 14:30:09 [INFO] UserService initialized
+2026-02-06 14:30:09 [INFO] Update profile test passed
+2026-02-06 14:30:09 [INFO] Setting up UserServiceTest
+2026-02-06 14:30:09 [INFO] UserService initialized
+2026-02-06 14:30:09 [INFO] Setting up PostServiceTest
+2026-02-06 14:30:09 [INFO] Post creation test passed
+2026-02-06 14:30:09 [INFO] Setting up PostServiceTest
+2026-02-06 14:30:09 [INFO] Basic relationship test passed
+2026-02-06 14:30:09 [INFO] Setting up PostServiceTest
+2026-02-06 14:30:09 [INFO] User creation test passed
+2026-02-06 14:30:10 [INFO] AuthenticationService initialized
+2026-02-06 14:30:10 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:30:10 [INFO] AuthenticationService initialized
+2026-02-06 14:30:10 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:30:10 [INFO] AuthenticationService initialized
+2026-02-06 14:30:10 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:30:10 [INFO] Database connection test passed
+2026-02-06 14:30:10 [INFO] Connection lifecycle test passed
+2026-02-06 14:30:10 [INFO] Basic database functionality test passed
+2026-02-06 14:30:10 [TRACE] This is a TRACE message
+2026-02-06 14:30:10 [DEBUG] This is a DEBUG message
+2026-02-06 14:30:10 [INFO] This is an INFO message
+2026-02-06 14:30:10 [WARN] This is a WARN message
+2026-02-06 14:30:10 [ERROR] This is an ERROR message
+2026-02-06 14:30:10 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 14:30:10 [INFO] Test info message
+2026-02-06 14:30:11 [INFO] Close connection test passed
+2026-02-06 14:30:11 [INFO] Connection reuse test passed
+2026-02-06 14:30:11 [INFO] Database connection test passed
+2026-02-06 14:30:15 [INFO] Setting up UserServiceTest
+2026-02-06 14:30:15 [INFO] UserService initialized
+2026-02-06 14:30:15 [INFO] Search users test passed
+2026-02-06 14:30:15 [INFO] Setting up UserServiceTest
+2026-02-06 14:30:15 [INFO] UserService initialized
+2026-02-06 14:30:15 [INFO] Update profile test passed
+2026-02-06 14:30:15 [INFO] Setting up UserServiceTest
+2026-02-06 14:30:15 [INFO] UserService initialized
+2026-02-06 14:30:15 [INFO] Setting up PostServiceTest
+2026-02-06 14:30:15 [INFO] Post creation test passed
+2026-02-06 14:30:15 [INFO] Setting up PostServiceTest
+2026-02-06 14:30:15 [INFO] Basic relationship test passed
+2026-02-06 14:30:15 [INFO] Setting up PostServiceTest
+2026-02-06 14:30:15 [INFO] User creation test passed
+2026-02-06 14:30:15 [INFO] AuthenticationService initialized
+2026-02-06 14:30:15 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:30:15 [INFO] AuthenticationService initialized
+2026-02-06 14:30:15 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:30:15 [INFO] AuthenticationService initialized
+2026-02-06 14:30:15 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 14:30:15 [INFO] Database connection test passed
+2026-02-06 14:30:15 [INFO] Connection lifecycle test passed
+2026-02-06 14:30:15 [INFO] Basic database functionality test passed
+2026-02-06 14:30:15 [TRACE] This is a TRACE message
+2026-02-06 14:30:15 [DEBUG] This is a DEBUG message
+2026-02-06 14:30:15 [INFO] This is an INFO message
+2026-02-06 14:30:15 [WARN] This is a WARN message
+2026-02-06 14:30:15 [ERROR] This is an ERROR message
+2026-02-06 14:30:16 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 14:30:16 [INFO] Test info message
+2026-02-06 14:31:02 [INFO] Initializing services...
+2026-02-06 14:31:03 [INFO] AuthenticationService initialized
+2026-02-06 14:31:03 [INFO] UserService initialized
+2026-02-06 14:31:03 [INFO] NotificationService initialized
+2026-02-06 14:31:03 [INFO] PostService initialized
+2026-02-06 14:31:03 [INFO] NotificationService initialized
+2026-02-06 14:31:03 [INFO] ConnectionService initialized
+2026-02-06 14:31:03 [INFO] NotificationService initialized
+2026-02-06 14:31:03 [INFO] FollowService initialized
+2026-02-06 14:31:03 [INFO] NotificationService initialized
+2026-02-06 14:31:09 [INFO] Starting registration process
+2026-02-06 14:31:17 [INFO] Starting login process
+2026-02-06 14:31:24 [INFO] User logged in successfully: prasad
+2026-02-06 14:32:04 [INFO] User logged out: prasad
+2026-02-06 15:05:17 [INFO] Close connection test passed
+2026-02-06 15:05:17 [INFO] Connection reuse test passed
+2026-02-06 15:05:17 [INFO] Database connection test passed
+2026-02-06 15:05:27 [INFO] Setting up UserServiceTest
+2026-02-06 15:05:27 [INFO] UserService initialized
+2026-02-06 15:05:27 [INFO] Search users test passed
+2026-02-06 15:05:27 [INFO] Setting up UserServiceTest
+2026-02-06 15:05:27 [INFO] UserService initialized
+2026-02-06 15:05:27 [INFO] Update profile test passed
+2026-02-06 15:05:27 [INFO] Setting up UserServiceTest
+2026-02-06 15:05:27 [INFO] UserService initialized
+2026-02-06 15:05:27 [INFO] Setting up PostServiceTest
+2026-02-06 15:05:27 [INFO] Post creation test passed
+2026-02-06 15:05:27 [INFO] Setting up PostServiceTest
+2026-02-06 15:05:27 [INFO] Basic relationship test passed
+2026-02-06 15:05:27 [INFO] Setting up PostServiceTest
+2026-02-06 15:05:27 [INFO] User creation test passed
+2026-02-06 15:05:28 [INFO] AuthenticationService initialized
+2026-02-06 15:05:28 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 15:05:28 [INFO] AuthenticationService initialized
+2026-02-06 15:05:28 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 15:05:28 [INFO] AuthenticationService initialized
+2026-02-06 15:05:28 [INFO] Setting up AuthenticationServiceTest
+2026-02-06 15:05:28 [INFO] Database connection test passed
+2026-02-06 15:05:28 [INFO] Connection lifecycle test passed
+2026-02-06 15:05:28 [INFO] Basic database functionality test passed
+2026-02-06 15:05:28 [TRACE] This is a TRACE message
+2026-02-06 15:05:28 [DEBUG] This is a DEBUG message
+2026-02-06 15:05:28 [INFO] This is an INFO message
+2026-02-06 15:05:28 [WARN] This is a WARN message
+2026-02-06 15:05:28 [ERROR] This is an ERROR message
+2026-02-06 15:05:28 [ERROR] Division by zero error occurred - / by zero
+2026-02-06 15:05:28 [INFO] Test info message
+2026-02-06 15:07:57 [INFO] Initializing services...
+2026-02-06 15:08:00 [INFO] AuthenticationService initialized
+2026-02-06 15:08:00 [INFO] UserService initialized
+2026-02-06 15:08:00 [INFO] NotificationService initialized
+2026-02-06 15:08:00 [INFO] PostService initialized
+2026-02-06 15:08:00 [INFO] NotificationService initialized
+2026-02-06 15:08:00 [INFO] ConnectionService initialized
+2026-02-06 15:08:00 [INFO] NotificationService initialized
+2026-02-06 15:08:00 [INFO] FollowService initialized
+2026-02-06 15:08:00 [INFO] NotificationService initialized
+2026-02-06 15:09:10 [INFO] Starting login process
+2026-02-06 15:09:20 [INFO] User logged in successfully: prasad
+2026-02-06 15:09:30 [DEBUG] Like count for post 1: 3
+2026-02-06 15:09:30 [DEBUG] Retrieved 3 comments for post 1
+2026-02-06 15:10:07 [INFO] User logged out: prasad
+2026-02-07 16:08:20 [INFO] Close connection test passed
+2026-02-07 16:08:21 [INFO] Connection reuse test passed
+2026-02-07 16:08:21 [INFO] Database connection test passed
+2026-02-07 16:08:35 [INFO] Setting up UserServiceTest
+2026-02-07 16:08:35 [INFO] UserService initialized
+2026-02-07 16:08:35 [INFO] Search users test passed
+2026-02-07 16:08:35 [INFO] Setting up UserServiceTest
+2026-02-07 16:08:35 [INFO] UserService initialized
+2026-02-07 16:08:35 [INFO] Update profile test passed
+2026-02-07 16:08:35 [INFO] Setting up UserServiceTest
+2026-02-07 16:08:35 [INFO] UserService initialized
+2026-02-07 16:08:35 [INFO] Setting up PostServiceTest
+2026-02-07 16:08:35 [INFO] Post creation test passed
+2026-02-07 16:08:35 [INFO] Setting up PostServiceTest
+2026-02-07 16:08:35 [INFO] Basic relationship test passed
+2026-02-07 16:08:35 [INFO] Setting up PostServiceTest
+2026-02-07 16:08:35 [INFO] User creation test passed
+2026-02-07 16:08:36 [INFO] AuthenticationService initialized
+2026-02-07 16:08:37 [INFO] Setting up AuthenticationServiceTest
+2026-02-07 16:08:37 [INFO] AuthenticationService initialized
+2026-02-07 16:08:37 [INFO] Setting up AuthenticationServiceTest
+2026-02-07 16:08:37 [INFO] AuthenticationService initialized
+2026-02-07 16:08:37 [INFO] Setting up AuthenticationServiceTest
+2026-02-07 16:08:37 [INFO] Database connection test passed
+2026-02-07 16:08:37 [INFO] Connection lifecycle test passed
+2026-02-07 16:08:37 [INFO] Basic database functionality test passed
+2026-02-07 16:08:37 [TRACE] This is a TRACE message
+2026-02-07 16:08:37 [DEBUG] This is a DEBUG message
+2026-02-07 16:08:37 [INFO] This is an INFO message
+2026-02-07 16:08:37 [WARN] This is a WARN message
+2026-02-07 16:08:37 [ERROR] This is an ERROR message
+2026-02-07 16:08:37 [ERROR] Division by zero error occurred - / by zero
+2026-02-07 16:08:37 [INFO] Test info message
+2026-02-07 16:09:52 [INFO] Initializing services...
+2026-02-07 16:09:58 [INFO] AuthenticationService initialized
+2026-02-07 16:09:58 [INFO] UserService initialized
+2026-02-07 16:09:58 [INFO] NotificationService initialized
+2026-02-07 16:09:58 [INFO] PostService initialized
+2026-02-07 16:09:58 [INFO] NotificationService initialized
+2026-02-07 16:09:58 [INFO] ConnectionService initialized
+2026-02-07 16:09:58 [INFO] NotificationService initialized
+2026-02-07 16:09:58 [INFO] FollowService initialized
+2026-02-07 16:09:58 [INFO] NotificationService initialized
+2026-02-07 16:10:00 [INFO] Initializing services...
+2026-02-07 16:10:06 [INFO] AuthenticationService initialized
+2026-02-07 16:10:06 [INFO] UserService initialized
+2026-02-07 16:10:06 [INFO] NotificationService initialized
+2026-02-07 16:10:06 [INFO] PostService initialized
+2026-02-07 16:10:06 [INFO] NotificationService initialized
+2026-02-07 16:10:06 [INFO] ConnectionService initialized
+2026-02-07 16:10:06 [INFO] NotificationService initialized
+2026-02-07 16:10:06 [INFO] FollowService initialized
+2026-02-07 16:10:06 [INFO] NotificationService initialized
+2026-02-07 16:10:33 [INFO] Starting login process
+2026-02-07 16:10:51 [INFO] User logged in successfully: narendra
+2026-02-07 16:11:13 [DEBUG] Check if user liked post - Post: 1, User: 3, Liked: true
+2026-02-07 16:11:24 [INFO] ✅ Like removed - Post: 1, User: 3
+2026-02-07 16:11:24 [INFO] User narendra unliked post 1
+2026-02-07 16:14:04 [INFO] User logged out: narendra
+2026-02-07 16:14:22 [INFO] Starting login process
+2026-02-07 16:14:29 [INFO] User logged in successfully: prasad
+2026-02-07 16:14:39 [DEBUG] Retrieved 6 notifications for user: 1
+2026-02-07 16:15:28 [INFO] Notification marked as read: 7
+2026-02-07 16:16:56 [INFO] User logged out: prasad
+2026-02-07 16:17:33 [INFO] Database connection test passed
+2026-02-07 16:17:33 [INFO] Connection lifecycle test passed
+2026-02-07 16:17:33 [INFO] Basic database functionality test passed
+2026-02-07 16:17:36 [INFO] AuthenticationService initialized
+2026-02-07 16:17:36 [INFO] Setting up AuthenticationServiceTest
+2026-02-07 16:17:36 [INFO] AuthenticationService initialized
+2026-02-07 16:17:36 [INFO] Setting up AuthenticationServiceTest
+2026-02-07 16:17:36 [INFO] AuthenticationService initialized
+2026-02-07 16:17:36 [INFO] Setting up AuthenticationServiceTest
+2026-02-07 16:17:36 [INFO] Setting up PostServiceTest
+2026-02-07 16:17:36 [INFO] Post creation test passed
+2026-02-07 16:17:36 [INFO] Setting up PostServiceTest
+2026-02-07 16:17:36 [INFO] Basic relationship test passed
+2026-02-07 16:17:36 [INFO] Setting up PostServiceTest
+2026-02-07 16:17:36 [INFO] User creation test passed
+2026-02-07 16:17:36 [INFO] Setting up UserServiceTest
+2026-02-07 16:17:36 [INFO] UserService initialized
+2026-02-07 16:17:36 [INFO] Search users test passed
+2026-02-07 16:17:36 [INFO] Setting up UserServiceTest
+2026-02-07 16:17:36 [INFO] UserService initialized
+2026-02-07 16:17:36 [INFO] Update profile test passed
+2026-02-07 16:17:36 [INFO] Setting up UserServiceTest
+2026-02-07 16:17:36 [INFO] UserService initialized
+2026-02-07 16:17:36 [TRACE] This is a TRACE message
+2026-02-07 16:17:36 [DEBUG] This is a DEBUG message
+2026-02-07 16:17:36 [INFO] This is an INFO message
+2026-02-07 16:17:36 [WARN] This is a WARN message
+2026-02-07 16:17:36 [ERROR] This is an ERROR message
+2026-02-07 16:17:36 [ERROR] Division by zero error occurred - / by zero
+2026-02-07 16:17:36 [INFO] Test info message
+2026-02-07 16:17:38 [INFO] Close connection test passed
+2026-02-07 16:17:38 [INFO] Connection reuse test passed
+2026-02-07 16:17:38 [INFO] Database connection test passed
